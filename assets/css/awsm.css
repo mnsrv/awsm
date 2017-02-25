@@ -13,7 +13,7 @@ body{
 @media (min-width: 20rem){
     body{
         font-size:calc(1rem + 0.0125 * (100vw - 20rem)); } }
-@media (min-width: 40rem){
+@media (min-width: 50rem){
     body{
         font-size:1.25rem; } }
 body header,
@@ -21,7 +21,7 @@ body main,
 body footer,
 body article{
     position:relative;
-    max-width:40rem;
+    max-width:50rem;
     margin:0 auto; }
 body > header{
     margin-bottom:3.5em; }
