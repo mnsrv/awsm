@@ -189,7 +189,7 @@ article header h1 a:visited:hover, article header h2 a:visited:hover{
 
 article > footer{
     margin-top:1.5em;
-    font-size:.85em; }
+    font-size:.8em; }
 
 a{
     text-decoration:none;
@@ -285,10 +285,6 @@ table td:only-child, table th:only-child{
     background-repeat:no-repeat, no-repeat; }
 table th{
     line-height:1.2; }
-
-time {
-    font-size:.8em;
-}
 
 code, kbd, var, samp{
     font-family:Consolas, "Lucida Console", Monaco, monospace;
