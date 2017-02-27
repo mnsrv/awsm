@@ -286,6 +286,10 @@ table td:only-child, table th:only-child{
 table th{
     line-height:1.2; }
 
+time {
+    font-size:.8em;
+}
+
 code, kbd, var, samp{
     font-family:Consolas, "Lucida Console", Monaco, monospace;
     font-style:normal; }

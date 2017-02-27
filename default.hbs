@@ -33,8 +33,22 @@
         <p>{{@blog.title}} &copy; {{date format="YYYY"}}</p>
     </footer>
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/locale/ru.js"></script>
+
     {{!-- Ghost outputs important scripts and data with this tag --}}
     {{ghost_foot}}
 
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            moment.locale('ru');
+
+            var dates = document.querySelectorAll('time');
+            Array.prototype.forEach.call(dates, function(el, i){
+                var date = el.getAttribute('datetime');
+                el.innerHTML = moment(date).format('D MMMM YYYY');
+            });
+        });
+    </script>
 </body>
 </html>
