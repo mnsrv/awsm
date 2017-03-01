@@ -59,10 +59,7 @@ ul, ol{
     padding-left:2.5em; }
 
 p{
-    margin:1em 0;
-    -webkit-hyphens:auto;
-    -ms-hyphens:auto;
-    hyphens:auto; }
+    margin:1em 0; }
 p:first-child{
     margin-top:0; }
 p:last-child{
@@ -212,9 +209,6 @@ a:hover{
 
 abbr{
     margin-right:-.075em;
-    -webkit-hyphens:none;
-    -ms-hyphens:none;
-    hyphens:none;
     letter-spacing:.075em;
     font-size:.9em; }
 
